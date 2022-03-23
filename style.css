@@ -38,6 +38,7 @@ textarea {
 }
 
 button {
+    cursor: pointer;
     background-color: var(--primary);
     padding: 1rem;
     border: none;
