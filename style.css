@@ -1,71 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 
 :root {
-    --primary: #F2C94C;
+  --primary: #f2c94c;
 }
 
 body {
-    margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-
 .navig {
-    background-color: var(--primary);
-    /*padding: 2rem;*/
+  background-color: var(--primary);
+  /*padding: 2rem;*/
 }
 
 .navig div {
-    text-align: center;
-    padding: 2rem;
-    font-size: large;
-
+  text-align: center;
+  padding: 2rem;
+  font-size: large;
 }
 
 .main-area {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 textarea {
-    display: block;
-    margin: 2rem 0rem;
-    width: 65%;
-    min-height: 20vh;
+  display: block;
+  margin: 2rem 0rem;
+  width: 65%;
+  min-height: 20vh;
 }
 
 button {
-    cursor: pointer;
-    background-color: var(--primary);
-    padding: 1rem;
-    border: none;
-    border-radius: 0.2rem;
-
-
+  cursor: pointer;
+  background-color: var(--primary);
+  padding: 1rem;
+  border: none;
+  border-radius: 0.2rem;
 }
 
 footer {
-
-    background-color: var(--primary);
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
+  background-color: var(--primary);
+  position: fixed;
+  /* left: 0px; */
+  bottom: 0px;
+  width: 100%;
 }
 
 footer div {
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
 }
 
 footer p {
-
-    width: 30%;
-    text-align: center;
-    margin: auto;
-    padding: 0.5rem;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 0.5rem;
 }
