@@ -9,11 +9,11 @@ function getTranslate(text) {
 
 function tr() {
   var inputtex = txt1.value;
-  console.log(inputtex);
+  // console.log(inputtex);
   fetch(getTranslate(inputtex))
     .then((response) => response.json())
     .then((json) => {
-      console.log(json.contents.translated);
+      // console.log(json.contents.translated);
       txt2.innerText = json.contents.translated;
     });
 }
